@@ -1,0 +1,76 @@
+{
+    "speech": [
+        {
+            "tag": "greetings",
+            "patterns": [
+                "holi","hola","como estas","como te va","buen dia","buenas tardes","buenos dias","buena tarde","que tal todo","como te encuentras"
+            ],
+            "responses": [
+                "hola","que gusto verle","me place saludarle"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "adios", "chao", "hasta luego", "nos pillamos", "hasta lueguito", "nos hablamos", "bye", "buenas noches", "chaito"
+            ],
+            "responses": [
+                "hasta luego", "pronto nos vemos", "que le vaya muy bien", "le extranare"
+            ]
+        },
+        {
+            "tag": "identifyself",
+            "patterns": [
+                "quien eres?", "quien eres", "que eres", "cual es tu proposito", "quien es usted", "que es usted", "identificate", "identifiquese"
+            ],
+            "responses": [
+                "Soy Elizabeth, una IA creada y diseñada por el señor Julián Cabrera. Estoy aquí para ayudarle en lo que requiera"
+            ]
+        },
+        {
+            "tag": "wakeupeli",
+            "patterns": [
+                "despierta eli", "eli", "elizabeth", "Elizabeth", "elyzabeth", "hey elizabeth", "oye elizabeth", "estas ahi", "estas hay", "estas ay"
+            ],
+            "responses": [
+                "a la orden","sigo por aqui","en que puedo colaborarle","que se le ofrece?","lista","estoy lista","a la espera de nuevas ordenes"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "clima", "como esta el clima", "que tal el clima", "como va a estar el clima", "informacion del clima", "informacion sobre el clima", "necesito informacion sobre el clima", "valdra la pena salir con ese clima"
+            ],
+            "responses": [
+                "Obteniendo información sobre el clima"
+            ]
+        },
+        {
+            "tag": "hour",
+            "patterns": [
+                "que hora es", "que horas son", "que hora son", "que horas seran", "dame la hora", "hora exacta"
+            ],
+            "responses": [
+                "obteniendo hora"
+            ]
+        },
+        {
+            "tag": "date",
+            "patterns": [
+                "a que estamos hoy", "que dia es hoy", "que fecha es hoy", "recuerdame la fecha", "dame la fecha", "que fecha sera hoy"
+            ],
+            "responses": [
+                "obteniendo fecha"
+            ]
+        },
+        {
+            "tag": "playexternalmedia",
+            "patterns": [
+                "reproduce", "quiero escuchar", "me gustaria escuchar", "ponte una de", "reproduce en youtube", "reproduce en spotify", "ponte una rola de", "quiero escuchar esta rola", "y si colocas una rola"
+            ],
+            "responses": [
+                "preparando reproduccion"
+            ]
+        }
+    ]
+}

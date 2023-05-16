@@ -1,0 +1,2 @@
+model_checkpoint_path: "C:\\JudProjects\\ElizabethPY\\elispeech.tflearn"
+all_model_checkpoint_paths: "C:\\JudProjects\\ElizabethPY\\elispeech.tflearn"
